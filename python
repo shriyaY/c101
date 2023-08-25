@@ -1,0 +1,18 @@
+import random
+response = "y"
+while response == "y":
+    
+    no = random.randint(1,6)
+    if no == 1:
+        print("*")
+    elif no == 2:
+        print("**")
+    elif no == 3:
+        print("***")
+    elif no == 4:
+        print("****")
+    elif no == 5:
+        print("*****")
+
+response = (input("Roll a dice or no?"))
+
